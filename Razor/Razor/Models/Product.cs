@@ -12,6 +12,8 @@ namespace Razor.Models
 		public string Description { get; set; }
 		public decimal Price { get; set; }
 		public string Category { get; set; }
+		public int? StockLevel { get; set; }
+
 
 		//public static Product[] GetProducts()
 		//{
@@ -26,7 +28,7 @@ namespace Razor.Models
 		//		Name = "Lifejacket",
 		//		Price = 48.95M
 		//	};
-	
+
 		//	return new Product[] { kayak, lifejacket, null };
 
 		//}
